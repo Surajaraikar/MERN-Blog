@@ -14,10 +14,9 @@ const FooterCom = () => {
               to="/"
               className="self-center whitespace-nowrap text-lg sm:test-xl font-semibold dark: test-white"
             >
-              <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white">
-                Suraj's
+              <span className="px-2 py-1 bg-gradient-to-r from-teal-800 to-teal-400 rounded-lg text-white font-light">
+                Blogee
               </span>
-              Blog
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 mt-4 sm:grid-cols-3 sm:gap-6">
@@ -63,7 +62,7 @@ const FooterCom = () => {
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright
             href="#"
-            by="Suraj's blog"
+            by="BLOOGEE"
             year={new Date().getFullYear()}
           />
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">

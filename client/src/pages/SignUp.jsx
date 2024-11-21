@@ -46,10 +46,9 @@ const SignUp = () => {
         {/* left */}
         <div className="flex-1">
           <Link to="/" className="font-bold dark:test-white text-4xl">
-            <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white">
-              Suraj's
+            <span className="px-2 py-1 bg-gradient-to-r from-teal-800 to-teal-400 rounded-lg text-white font-thin">
+              Blogee
             </span>
-            Blog
           </Link>
           <p className="text-sm mt-5">
             This is demo project. You can sign up with your email and password
@@ -88,7 +87,8 @@ const SignUp = () => {
               />
             </div>
             <Button
-              gradientDuoTone="purpleToPink"
+              gradientDuoTone="cyanToBlue"
+              className="bg-gradient-to-r from-teal-800 to-teal-400"
               type="submit"
               disabled={loading}
             >
