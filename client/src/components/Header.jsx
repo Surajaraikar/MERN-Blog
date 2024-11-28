@@ -66,7 +66,7 @@ const Header = () => {
         />
       </form>
       <Button
-        className="w-12 h-10 md:hidden items-center "
+        className="w-12 h-10 md:hidden items-center"
         color="gray"
         onClick={handleSubmit}
         pill
@@ -75,7 +75,7 @@ const Header = () => {
       </Button>
       <div className="flex gap-2 md:order-2">
         <Button
-          className="w-12 h-10 hidden sm:inline"
+          className="w-12 h-10 pt-1"
           color="gray"
           pill
           onClick={() => dispatch(toggleTheme())}

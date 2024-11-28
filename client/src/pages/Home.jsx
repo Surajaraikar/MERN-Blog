@@ -22,7 +22,7 @@ export default function Home() {
         </p>
         <Link
           to="/search"
-          className="text-xs sm:text-sm text-teal-500 font-bold hover:underline"
+          className="sm:text-3xl text-2xl text-teal-500 font-bold hover:underline"
         >
           View all posts
         </Link>
